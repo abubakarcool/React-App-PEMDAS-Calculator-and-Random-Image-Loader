@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  background-color: #302d2d;
+}
+.navhtwo{
+  text-transform: uppercase;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding-top: 0.5rem;
+  color: white;
+}
+.navList{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem 0.1rem;
+  margin: 0px;
+}
+.navListItem{
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  list-style: none;
+  border: 2px solid blue;
+}
+.navListItem:hover{
+  background-color: rgb(90, 88, 88);
+}
+.navListItem a{
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+.calcMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 52rem;
+}
+.formOnSubmit{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.inputText_calc{
+  font-size: 1rem;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.btn{
+  width: 20%;
+  align-self: center;
+  color: white;
+  background-color: blue;
+  border: 2px solid blue;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: pointer;
+}
+.answerlabel{
+  display: block;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+}
+a {
+  cursor: pointer;
+}
+.imgContainer{
+}
+
+@media only screen and  (min-width:0px) and (max-width : 550px){
+  img{
+    margin: 0.2rem;
+    display: block;
+    margin : auto;
+    border: 1px solid blue;
+  }
+}
+@media only screen and  (min-width:550px) and (max-width : 1300px){
+  img{
+    margin: 0.8rem;
+    display: block;
+    margin : auto;
+    border: 2px solid blue;
+  }
+}
+@media only screen and  (min-width:1300px) and (max-width : 55000px){
+  img{
+    margin: 2rem;
+    display: block;
+    margin : auto;
+    border: 3px solid blue;
+  }
+}
+.imgContainer button{
+  display: block;
+  margin: 1rem auto;
+}
+.ftr{
+  background-color: #302d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyrighttext{
+  color: white;
+  padding: 1rem;
+}
